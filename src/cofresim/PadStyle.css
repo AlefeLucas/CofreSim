@@ -1,0 +1,33 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 06/08/2017, 12:07:20
+    Author     : Alefe Lucas
+*/
+
+.root{
+    -fx-base: #111;    
+}
+
+.button{
+    -fx-text-fill: #bbb;
+}
+
+.label{
+    -fx-text-fill: #bbb;
+}
+
+.alt_button{
+    -fx-text-fill: #f33;
+}
+
+.alt_button2{
+    -fx-text-fill: #3a3;
+}
+
+.password{    
+    -fx-base: black;
+}

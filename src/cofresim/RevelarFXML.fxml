@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="rootPane" prefHeight="200.0" prefWidth="200.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cofresim.RevelarFXMLController">
+    <stylesheets>
+        <URL value="@PadStyle.css" />
+    </stylesheets>
+   <children>
+      <Label layoutX="25.0" layoutY="69.0" text="Senha mestre" />
+      <Label layoutX="25.0" layoutY="18.0" text="Selecione a senha" />
+      <Button fx:id="buttonCancelar" layoutX="41.0" layoutY="157.0" mnemonicParsing="false" onAction="#cancelClicked" text="Cancelar" />
+      <Button fx:id="buttonOK" layoutX="114.0" layoutY="157.0" mnemonicParsing="false" onAction="#okClicked" text="OK" />
+      <ComboBox fx:id="comboBoxSenha" layoutX="25.0" layoutY="35.0" prefWidth="150.0" promptText="Nome..." />
+      <PasswordField fx:id="passwordFieldMaster" layoutX="26.0" layoutY="86.0" />
+      <Label fx:id="labelSenha" layoutX="82.0" layoutY="124.0" text="..." />
+   </children>
+</AnchorPane>
